@@ -42,7 +42,7 @@ const Hero = () => {
     e.preventDefault();
 
     const link = document.createElement("a");
-    link.href = "http://localhost:5173" + "/HarisAkramCV.pdf";
+    link.href = "https://harisakram.vercel.app" + "/HarisAkramCV.pdf";
     link.setAttribute("download", "HarisAkramCV.pdf"); // Set the download attribute and filename
     document.body.appendChild(link);
 
